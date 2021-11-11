@@ -13,7 +13,7 @@ public class Array {
         nums[4] = -1;
         nums[5] = 12;
         nums[6] = 10;
-
+//Find the index at a specific value in an array!
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == -1) {
@@ -23,7 +23,7 @@ public class Array {
         }
         System.out.println("Index = " + index);
 
-
+//Add an element to a full array
         int[] array = {1, 3, 4, 6, 7, 8, 3};
         int n = array.length;
         int[] newArray = new int[n + 1];
@@ -33,5 +33,12 @@ public class Array {
             newArray[i] = array[i];
         }
         System.out.println(Arrays.toString(newArray));
+    //Add an element to the end of an array that has space
+
+    //Insert or update an element at a specific index
+    //Delete an element by setting it to null
+    //Delete an element by shifting elements
+
+
     }
 }
