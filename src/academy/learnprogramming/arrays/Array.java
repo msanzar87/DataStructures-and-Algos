@@ -16,25 +16,22 @@ public class Array {
 
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == -1){
+            if (nums[i] == -1) {
                 index = i;
                 break;
             }
         }
-        System.out.println("Index = "+ index);
+        System.out.println("Index = " + index);
 
 
-        int[] array = {1,3,4,6,7,8,3};
+        int[] array = {1, 3, 4, 6, 7, 8, 3};
         int n = array.length;
-        int[] newArr = new int[n+1];
-        newArr[7] = 10;
-        System.out.println(Arrays.toString(array));
+        int[] newArray = new int[n + 1];
+        newArray[n] = 10;
 
         for (int i = 0; i < array.length; i++) {
-            newArr[i] = array[i];
+            newArray[i] = array[i];
         }
-        System.out.println(Arrays.toString(newArr));
-        }
-
+        System.out.println(Arrays.toString(newArray));
     }
-
+}
