@@ -1,5 +1,7 @@
 package academy.learnprogramming.arrays;
 
+import java.util.Arrays;
+
 public class Array {
     public static void main(String[] args) {
         int[] nums = new int[7];
@@ -23,10 +25,16 @@ public class Array {
 
 
         int[] array = {1,3,4,6,7,8,3};
-        for (int j = 0; j < array.length; j++) {
-            System.out.println("Index " + array[j] * 2 );
+        int n = array.length;
+        int[] newArr = new int[n+1];
+        newArr[7] = 10;
+        System.out.println(Arrays.toString(array));
 
+        for (int i = 0; i < array.length; i++) {
+            newArr[i] = array[i];
+        }
+        System.out.println(Arrays.toString(newArr));
         }
 
     }
-}
+
