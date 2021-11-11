@@ -15,10 +15,13 @@ public class Array {
         int index = -1;
 
         for (int i = 0; i < nums.length; i++) {
+        if (nums[i] == 12){
+            index = i;
+            break;
 
             }
         }
-
+        System.out.println("Index = "+ index);
 
 
         int[] array = {1,3,4,6,7,8,3};
