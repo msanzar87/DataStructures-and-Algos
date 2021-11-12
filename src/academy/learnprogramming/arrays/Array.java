@@ -24,16 +24,25 @@ public class Array {
         System.out.println("Index = " + index);
 
 //Add an element to a full array
-        int[] array = {1, 3, 4, 6, 7, 8, 3};
-        int n = array.length;
-        int[] newArray = new int[n + 1];
-        newArray[n] = 10;
-
-        for (int i = 0; i < array.length; i++) {
-            newArray[i] = array[i];
-        }
-        System.out.println(Arrays.toString(newArray));
+        int[] array = {1, 3, 4, 0, 7, 8, 3};
+//        int n = array.length;
+//        int[] newArray = new int[n + 1];
+//        newArray[n] = 10;
+//
+//        for (int i = 0; i < array.length; i++) {
+//            newArray[i] = array[i];
+//        }
+//        System.out.println(Arrays.toString(newArray));
     //Add an element to the end of an array that has space
+//        for (int i = 0; i < array.length; i++) {
+//            if (array[i] == 0){
+//                array[i] = 19;
+//            }else{
+//                continue;
+//            }
+//
+//        }
+//        System.out.println(Arrays.toString(array));
 
     //Insert or update an element at a specific index
     //Delete an element by setting it to null
