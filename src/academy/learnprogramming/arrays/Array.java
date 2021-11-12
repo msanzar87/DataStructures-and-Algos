@@ -47,12 +47,17 @@ public class Array {
     //Insert or update an element at a specific index
 
     //Delete an element by setting it to null
-        for (int i = 0; i < array.length; i++) {
-            array[0] = 0;
-
-        }
-        System.out.println(Arrays.toString(array));
+//        for (int i = 0; i < array.length; i++) {
+//            array[0] = 0;
+//
+//        }
+//        System.out.println(Arrays.toString(array));
     //Delete an element by shifting elements
+        int[] nums1 = new int[6];
+        for (int i = 0; i < array.length - 1; i++) {
+        nums1[i] = array[i];
+        }
+        System.out.println(Arrays.toString(nums1));
 
 
     }
