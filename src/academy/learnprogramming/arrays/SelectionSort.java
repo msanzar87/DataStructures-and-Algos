@@ -8,11 +8,11 @@ public class SelectionSort {
         for (int unsorted = arr.length - 1; unsorted > 0; unsorted--) {
             int largest = 0;
             for (int i = 1; i <= unsorted; i++) {
-                if (arr[i] > arr[largest]) {
+                if (arr[i] > arr[largest]){
                     largest = i;
-                }
             }
-swap(arr,unsorted,largest);
+        }
+            swap(arr,largest,unsorted);
         }
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
