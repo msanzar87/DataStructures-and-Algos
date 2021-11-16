@@ -18,9 +18,8 @@ public class SelectionSort {
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[j] < arr[index]){
                     index = j;
-            }
-        }swap(arr, i,index);
-
+                }
+            }swap(arr,index,i);
         }
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
