@@ -7,11 +7,11 @@ public class SelectionSort {
 
         for (int unsort = arr.length - 1; unsort > 0; unsort--) {
             int largest = 0;
-            for (int i = 1; i <= unsort; i++) {
+            for (int i = 0; i <= unsort; i++) {
                 if (arr[i] > arr[largest]){
                     largest = i;
                 }
-            }swap(arr, largest, unsort);
+            }swap(arr,largest,unsort);
         }
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
