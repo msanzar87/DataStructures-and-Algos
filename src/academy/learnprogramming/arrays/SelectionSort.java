@@ -5,14 +5,13 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {20, 35, -15, 7, 55, 1, -22};
 
-        for (int unsorted = arr.length - 1; unsorted > 0; unsorted--) {
+        for (int unsort = arr.length - 1; unsort > 0; unsort--) {
             int largest = 0;
-            for (int i = 1; i <= unsorted; i++) {
+            for (int i = 1; i <= unsort; i++) {
                 if (arr[i] > arr[largest]){
                     largest = i;
-            }
-        }
-            swap(arr,largest,unsorted);
+                }
+            }swap(arr, largest, unsort);
         }
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
